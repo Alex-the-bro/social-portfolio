@@ -1,0 +1,442 @@
+/* Smaller screens, smart watch */
+
+@media screen and (min-width:200px) and (max-width: 319px){
+
+    .job-title{
+        margin-left: 300px;
+     }
+
+    .d-flex{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .display-3{
+        color: white;
+       margin-top: 0px;
+       margin-left: 0px;
+        text-shadow: 5px 2px 8px greenyellow, 6px 3px  #00FFFF, 9px 5px 5px purple;
+    }
+
+    .box-1{
+        width: 100%;
+        height:50%;
+        background-color: black;
+        margin-right: 36px;
+    }
+    .lead{
+        font-size: 1em;
+    }
+    .box-1-txt{
+        padding: 10px;
+        font-size: 1em;
+        text-shadow: 0px 0px 10px #15fdb0;
+    }
+    #about{
+        height: 160vh;
+    }
+    .skill-1{
+        background-color: black;
+        width: 100px ;
+        height: 100px;
+        border-radius: 50%;
+        margin-left: 20px;
+        border: 5px solid #15fdb0;
+    }
+    .skill-con{
+        width: 180px;
+        height: 280px;
+        display: inline-block;
+    }
+
+    .skill-info{
+        margin-top:60%;
+        width: 100%;
+        height: 200%;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .display-5{
+        text-align: center;
+        color: white;
+        text-shadow:2px 2px 10px greenyellow;
+        margin-left: -45px;
+
+        font-size: 1rem;
+        /* padding-top: 10px;
+        text-shadow: 0px 0px 10px #15fdb0; */
+    }
+    .skill-txt{
+        position: absolute;
+        top: 260%;
+        left: 10%;
+        font-size: 2.5rem;
+    }
+
+    #skills{
+        height: 350vh;
+    }
+    .icn{
+        margin-left:28px;
+        margin-top: 20px;
+    }
+    .icn2{
+        margin-left:15px;
+        margin-top: 20px;
+    }
+    .work-txt{
+        font-size: 3.5rem;
+        text-align: center;
+        margin-left: 80px;
+    }
+    .tools{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width:80%;
+        height: 410px;
+        margin-left: auto;
+        margin-right:auto;
+        padding-top:40px
+    }
+
+    .github{
+        font-size: 1em;
+        position: relative;
+        bottom: 10%;
+    }
+
+    
+    .tools img{
+        padding: 5px;
+    }
+
+    #work{
+        height: 60vh;
+    }
+    .container{
+        width: 100%;
+    }
+    #blogs{
+        height: 490vh;
+    }
+    #Graphics-Videos{
+    
+        height: 550vh;
+    }
+   
+
+}
+
+
+
+/* Mobile devices */
+@media screen and  (min-width: 320px) and (max-width: 480px) {
+    .d-flex{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .display-3{
+        color: white;
+       margin-top: 0px;
+       margin-left: 0px;
+        text-shadow: 5px 2px 8px greenyellow, 6px 3px  #00FFFF, 9px 5px 5px purple;
+    }
+
+    .box-1{
+        width: 100%;
+        height:50%;
+        background-color: black;
+        margin-right: 36px;
+    }
+    .lead{
+        font-size: 1em;
+    }
+    .box-1-txt{
+        padding: 10px;
+        font-size: 1em;
+        text-shadow: 0px 0px 10px #15fdb0;
+    }
+    #about{
+        height: 140vh;
+    }
+    .skill-1{
+        background-color: black;
+        width: 100px ;
+        height: 100px;
+        border-radius: 50%;
+        margin-left: 20px;
+        border: 5px solid #15fdb0;
+    }
+    .skill-con{
+        width: 180px;
+        height: 280px;
+        display: inline-block;
+    }
+
+    .skill-info{
+        margin-top:60%;
+        width: 100%;
+        height: 200%;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .display-5{
+        text-align: center;
+        color: white;
+        text-shadow:2px 2px 10px greenyellow;
+        margin-left: -45px;
+
+        font-size: 1rem;
+        /* padding-top: 10px;
+        text-shadow: 0px 0px 10px #15fdb0; */
+    }
+    .skill-txt{
+        position: absolute;
+        top: 240%;
+        left: 10%;
+        font-size: 3.5rem;
+    }
+
+    #skills{
+        height: 350vh;
+    }
+    .icn{
+        margin-left:28px;
+        margin-top: 20px;
+    }
+    .icn2{
+        margin-left:15px;
+        margin-top: 20px;
+    }
+    .work-txt{
+        font-size: 3.5rem;
+        text-align: center;
+        margin-left: 80px;
+    }
+    .tools{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width:80%;
+        height: 410px;
+        margin-left: auto;
+        margin-right:auto;
+        padding-top:40px
+    }
+
+    .tools img{
+        padding: 5px;
+    }
+
+    #work{
+        height: 70vh;
+    }
+    .container{
+        width: 100%;
+    }
+    #blogs{
+        height: 650vh;
+    }
+    #Graphics-Videos{
+    
+        height: 550vh;
+    }
+   
+  }
+
+  /* iPads, Tablets */
+
+  @media screen and  (min-width: 481px) and (max-width: 1023px) {
+
+    .job-title{
+       margin-left: 300px;
+    }
+    .d-flex{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .display-3{
+        color: white;
+       margin-top: 0px;
+       margin-left: 0px;
+        text-shadow: 5px 2px 8px greenyellow, 6px 3px  #00FFFF, 9px 5px 5px purple;
+    }
+
+    .box-1{
+        width: 100%;
+        height:50%;
+        background-color: black;
+        margin-right: 36px;
+    }
+    .lead{
+        font-size: 1em;
+    }
+    .box-1-txt{
+        padding: 10px;
+        font-size: 1em;
+        text-shadow: 0px 0px 10px #15fdb0;
+    }
+    #about{
+        height: 105vh;
+    }
+    .skill-1{
+        background-color: black;
+        width: 100px ;
+        height: 100px;
+        border-radius: 50%;
+        margin-left: 20px;
+        border: 5px solid #15fdb0;
+    }
+    .skill-con{
+        width: 180px;
+        height: 280px;
+        display: inline-block;
+    }
+
+    .skill-info{
+        margin-top:60%;
+        width: 100%;
+        height: 200%;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .display-5{
+        text-align: center;
+        color: white;
+        text-shadow:2px 2px 10px greenyellow;
+        margin-left: -45px;
+
+        font-size: 1rem;
+        /* padding-top: 10px;
+        text-shadow: 0px 0px 10px #15fdb0; */
+    }
+    .skill-txt{
+        position: absolute;
+        top: 200%;
+        left: 0%;
+        font-size: 3.5rem;
+    }
+
+    #skills{
+        height: 350vh;
+    }
+    .icn{
+        margin-left:28px;
+        margin-top: 20px;
+    }
+    .icn2{
+        margin-left:15px;
+        margin-top: 20px;
+    }
+    .work-txt{
+        font-size: 3.5rem;
+        text-align: center;
+        margin-left: 80px;
+    }
+    .tools{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width:80%;
+        height: 410px;
+        margin-left: auto;
+        margin-right:auto;
+        padding-top:40px
+    }
+
+    .tools img{
+        padding: 5px;
+    }
+
+    #work{
+        height: 90vh;
+    }
+    .container{
+        width: 100%;
+    }
+    #blogs{
+        height: 350vh;
+    }
+    #Graphics-Videos{
+    
+        height: 550vh;
+    }
+}
+
+/* Small screens, laptops */
+
+@media screen and  (min-width: 1024px) and (max-width: 1920px) {
+   
+    .display-3{
+        color: white;
+        margin-left: 90px;
+        margin-top: 200px;
+        padding: 5px;
+        font-size: 3rem;
+        text-shadow: 5px 2px 8px greenyellow, 6px 3px  #00FFFF, 9px 5px 5px purple;
+    }
+    #blogs{
+        height: 180vh;
+    }
+    #Graphics-Videos{
+    
+        height: 220vh;
+    }
+    #work{
+        height: 120vh;
+    }
+   
+}
+
+/* Desktops, large screens */
+
+@media screen and  (min-width: 1025px) and (max-width: 1200px) {
+    #Graphics-Videos{
+    height: 300vh;
+    }
+}
+
+/* Extra large screens, TV */
+
+@media screen and (min-width: 1201px ) and (max-width:1920) {
+    #about{
+        height: 60vh;
+    }
+    #skills{
+        height: 130vh;
+    }
+    #work{
+        height: 80vh;
+    }
+    #blogs{
+        height: 120vh;
+    }
+    #Graphics-videos{
+        height: 120vh;
+    }
+    #contact{
+        height: 80vh;
+    }
+    .nav-item{
+        margin-left: 320px;
+    }
+    main{
+
+        border-bottom: none;
+    }
+}
